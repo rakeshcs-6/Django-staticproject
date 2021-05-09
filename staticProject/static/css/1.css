@@ -1,0 +1,12 @@
+img{
+    height:100px;
+    width:200px;
+    border:2px solid black;
+}
+div{
+    justify-content: space-between;
+    
+}
+body{
+    background-color: lightslategray;
+}

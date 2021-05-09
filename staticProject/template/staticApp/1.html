@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <link rel="stylesheet" href="{% static "css/1.css" %}"/>
+     <title>static</title>
+</head>
+<body>
+    <div>
+        <h1>Animal:{{animal1}}</h1>
+        <img src="{% static "images/1.jpeg" %}" alt="not found">
+    </div>
+    <br>
+    <div>
+        <h1>Skill:{{skill1}}</h1>
+        <img src="{% static  "images/python.jpeg" %}">
+    </div>
+    
+</body>
+</html>
